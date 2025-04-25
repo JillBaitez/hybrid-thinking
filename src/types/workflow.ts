@@ -26,7 +26,7 @@ export interface Snapshot {
   output: string;
   validatorStatus?: ValidatorStatus;
   createdAt: string;
-  metadata: Record<string, any>;
+  metadata: Record<string, unknown>;
 }
 
 export interface Workflow {

@@ -1,4 +1,4 @@
-import { Stage, Snapshot, Workflow, ValidatorStatus } from '../types/workflow';
+import { Stage, Snapshot, Workflow } from '../types/workflow';
 
 export const mockStages: Stage[] = [
   {
